@@ -21,7 +21,7 @@
   border: 1px solid skyblue;
 }
 .row2 {
-  border: 1px solid rgba(204, 230, 11, 0.595);
+  border: 1px solid orange;
 }
 .row3 {
   border: 1px solid mediumvioletred;
@@ -36,19 +36,66 @@
   background-color: skyblue;
 }
 .line2 {
-  background-color: rgba(204, 230, 11, 0.595);
+  background-color: orange;
 }
 .line3 {
-  background-color: rgb(199, 176, 181);
+  background-color: mediumvioletred;
 }
 .description {
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
-/* .a {
-  background-image: url(./images/planetakeoff.jpeg);
-  min-height: 20px;
-  padding-right: 10px;
-  background-position: right bottom;
-  background-size: 100px 150px;
+.first-color {
+  color: skyblue;
+}
+.second-color {
+  color: orange;
+}
+.third-color {
+  color: rgb(199, 176, 181);
+}
+.image {
+  height: 10px;
+  width: 200px;
+  background-size: 50px 50px;
   background-repeat: no-repeat;
-} */
+  background-position: center center;
+  padding-top: 100px;
+}
+.boston {
+  margin-top: 10px;
+  background-size: 100px 100px;
+  background-image: url("./images/planetakeoff.jpeg");
+}
+.madrid {
+  background-image: url("./images/planelanding.webp");
+}
+.translate {
+  background-image: url("./images/translate.png");
+}
+.bike {
+  background-image: url("./images/bike.png");
+  /* background-color: orange; */
+}
+.boat {
+  background-image: url("./images/boat.png");
+  color: orange;
+}
+.drive {
+  background-image: url("./images/car.png");
+}
+.coffee {
+  background-image: url(./images/coffee.jpeg);
+  background-size: 100px 100px;
+  margin-top: 10px;
+}
+.gym {
+  background-image: url(./images/gym.webp);
+  background-size: 100px 100px;
+  margin-top: 10px;
+}
+
+.hot-tub {
+  background-image: url(./images/hottub.jpeg);
+  background-size: 100px 100px;
+  margin-top: 10px;
+}

@@ -1,15 +1,54 @@
-.main{
-    display: flex;
-    width: 100%;
-    height: 400px;
+.main {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 350px;
+  justify-content: center;
+  align-items: center;
 }
 
-.tile{
-    display: flex;
-    height: 200px;
-    width: 200px;
-    border: 1px solid aqua;
-    margin: 10px;
-    justify-content: center;
-    align-items: center;
+.tile {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
 }
+
+.row1 {
+  border: 1px solid skyblue;
+}
+.row2 {
+  border: 1px solid rgba(204, 230, 11, 0.595);
+}
+.row3 {
+  border: 1px solid mediumvioletred;
+}
+
+.info {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+}
+.line1 {
+  background-color: skyblue;
+}
+.line2 {
+  background-color: rgba(204, 230, 11, 0.595);
+}
+.line3 {
+  background-color: rgb(199, 176, 181);
+}
+.description {
+  margin-top: 70px;
+}
+/* .a {
+  background-image: url(./images/planetakeoff.jpeg);
+  min-height: 20px;
+  padding-right: 10px;
+  background-position: right bottom;
+  background-size: 100px 150px;
+  background-repeat: no-repeat;
+} */
